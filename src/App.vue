@@ -1,22 +1,43 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+<main>
+      <section>
+        <Home msg="Daryl Ferrer Legion" />
+      </section>
+      <footer>&copy; 2021</footer>
+    </main>
 </template>
 
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-
-// This starter template is using Vue 3 experimental <script setup> SFCs
-// Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
+import Home from './components/Home.vue'
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+section {
+    padding: 1em 0;
+}
+footer {
+    font-size: small;
+    margin: 1em 0;
+}
+body {
+    background-color: #000;
+    font-family: monospace;
+    text-align: center;
+    max-width: 50em;
+    font-size: 120%;
+    padding: 0 1em;
+    margin: auto;
+    color: #fff;
+}
+main {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+}
+h1 {
+    font-size: 200%;
+    margin: 0;
 }
 </style>
