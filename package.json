@@ -9,7 +9,8 @@
   "dependencies": {
     "@headlessui/vue": "^1.2.0",
     "@heroicons/vue": "^1.0.1",
-    "vue": "^3.2.26"
+    "vue": "^3.2.26",
+    "vue-tweet": "^1.0.3"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.10.2",
