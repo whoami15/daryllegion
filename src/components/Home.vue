@@ -17,7 +17,7 @@ export default {
     props: ['msg'],
 
     created() {
-        confetti()
+        this.conf()
     },
 
     methods: {
