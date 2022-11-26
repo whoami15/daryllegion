@@ -1,13 +1,6 @@
 <template>
-    <Home msg="Daryl Ferrer Legion" />
+    <router-view></router-view>
 </template>
 
 <script>
-import Home from './components/Home.vue'
-
-export default {
-    components: {
-        Home,
-    },
-}
 </script>
